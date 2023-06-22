@@ -23,8 +23,16 @@ body {
 }
 
 .container {
-    height: 100vh;
+    height: 200vh;
     display: grid;
+}
+
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: lem;
+    color: var(--branco-principal);
+    display: block;
 }
 
 .container__botao {
